@@ -61,7 +61,7 @@ $(document).ready(function(){
 //Service Worker registration
 if ('serviceWorker' in navigator){
     navigator.serviceWorker
-    .register('sw.js')
+    .register('/BOFF/sw.js')
     .then(function(registration){
         console.log('ServiceWorker Registered', registration);
     })
