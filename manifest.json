@@ -1,0 +1,14 @@
+{
+    "short_name": "BOFF",
+    "name": "Brooklyn Outdoor Film Festival",
+    "icons": [
+      {
+        "src": "img/icon.png",
+        "type": "image/png",
+        "sizes": "246x246"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "orientation": "portrait"
+}

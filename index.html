@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/icon.png" sizes="16x16">
+
+    <title>Brooklyn Outdoor Film Festival</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Lora font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <!-- ScrollReveal script -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!-- jQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Manifest.json link -->
+    <link rel="manifest" href="manifest.json">
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="60" id="home" background="img/bg.jpg" onload="displayNotification()">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-default fixed-top" data-spy="affix" data-offset-top="197" id="nav">
+      <a class="navbar-brand" href="#home"><i class="fa fa-film" aria-hidden="true"></i>Brooklyn Outdoor<br>&nbsp;&nbsp;&nbsp;Film Festival</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info"><i class="fa fa-info" aria-hidden="true"></i>Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#movies"><i class="fa fa-film" aria-hidden="true"></i>Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news"><i class="fa fa-newspaper-o" aria-hidden="true"></i>News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#register"><i class="fa fa-ticket" aria-hidden="true"></i>Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#map"><i class="fa fa-map-marker" aria-hidden="true"></i>Map</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- CAROUSEL -->
+    <div id="gallery" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#gallery" data-slide-to="0" class="active"></li>
+        <li data-target="#gallery" data-slide-to="1"></li>
+        <li data-target="#gallery" data-slide-to="2"></li>
+      </ol>
+      <!-- First slide -->
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="first-slide img-responsive" src="img/brooklyn-bridge-film-festival.jpg" alt="First slide">
+        </div>
+        <!-- Second slide -->
+        <div class="carousel-item">
+          <img class="second-slide img-responsive" src="img/brooklyn-bridge-film-festival2.jpg" alt="Second slide">
+        </div>
+        <!-- Third slide -->
+        <div class="carousel-item active">
+          <img class="third-slide img-responsive" src="img/brooklyn-bridge-film-festival3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- END OF CAROUSEL -->
+    
+      <hr class="divider">
+      <!-- Info section -->
+      <div class="row container-fluid" id="info">
+        <div class="col-lg-7 col-md-7 col-xs-12">
+          <h2 class="heading">Brooklyn Bridge Film Festival. <span class="text-muted">It'll blow your mind</span></h2>
+          <h4 class="text">We are organizators of the Brooklyn outdoor film festival which will take place from 5th till 8th of August at the Brooklyn Bridge park. Showtime starts every day from 6pm till midnight. Tickets are free. The Brooklyn Outdoor Film Festival, is an International, competitive festival. BOFF mission is to provide a public forum in Brooklyn in order to advance public interest in films and the independent production of films. To draw worldwide attention to Brooklyn as a center for cinema. To encourage the rights of all Brooklyn residents to access and experience the power of independent filmmaking, and to promote artistic excellence and the creative freedom of artists without censure.</h4>
+          <center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">See video</button></center>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Brooklyn 2017 Festival Trailer</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://player.vimeo.com/video/217313899" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- Flip side card animation -->
+        <div class="col-lg-5 col-md-5 col-xs-12 card-container">
+          <div class="card">
+            <div class="side">
+              <img class="info-image img-fluid mx-auto img-responsive" alt="" style="width: 100%; height: 500px;" src="img/brooklyn-bridge-film-festival4.jpg">
+            </div>
+            <div class="side back">
+                <img class="info-image img-fluid mx-auto img-responsive" alt="" style="width: 100%; height: 500px;" src="img/brooklyn-bridge-film-festival6.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- End section -->
+
+      <!-- Schedule for movies -->
+
+      <div id="movies">
+          <div class="row"> 
+            <div class="container">
+
+              <div class="col-md-12 col-sm-12 col-xs-12"> <!-- 1st row -->
+                <div class="movies-title"><h2>Movies Schedule</h2></div>
+                <div class="row">
+                  <div class="col-md-12 col-md-12 col-xs-12">
+                    <h3 style="text-align: right; color: orchid;"> 5th August</h3>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q0CbN8sfihY?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 star-wars">
+                    <h4>Star Wars: The Last Jedi</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;18:00</h4>
+                    <p>In Lucasfilm's 'Star Wars: The Last Jedi,' the Skywalker saga continues as the heroes of 'The Force Awakens' join the galactic legends in an epic adventure that unlocks age-old mysteries of the Force and shocking revelations of the past.
+                    </p>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6WbzCXSImQw?rel=0" allowfullscreen></iframe>
+                  </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 thor">
+                    <h4>Thor: Ragnarok</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;20:00</h4>
+                    <p>Thor is imprisoned on the other side of the universe without his mighty hammer and finds himself in a race against time to get back to Asgard to stop Ragnarok at the hands of an all-powerful new threat, the ruthless Hela. But first he must survive a deadly gladiatorial contest that pits him against his former ally and fellow Avenger, the Incredible Hulk!
+                    </p>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S5CjKEFb-sM?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 imitation-game">
+                    <h4>The Imitation Game</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;22:00</h4>
+                    <p>Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II. 
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="row"> <!-- 2nd row -->
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 style="text-align: right; color:orchid;"> 6th August</h3><hr>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 requiem">
+                    <h4>Requiem for a dream</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;18:00</h4>
+                    <p>The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jzk-lmU4KZ4?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 flag-flying">
+                    <h4>Last Flag Flying</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;20:00</h4>
+                    <p>Former Navy Corps medic Larry "Doc" Shepherd (Steve Carell) re-unites with ex-Marine Sal Nealon (Bryan Cranston) and Reverend Richard Mueller (Laurence Fishburne) to bury Doc's son, a young Marine killed in the Iraq War.
+                    </p> 
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VX8ajObK81A?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 brave">
+                    <h4>Only the Brave</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;22:00</h4>
+                    <p>Based on the true story of the Granite Mountain Hotshots, here's a story of a group of elite firefighters who risk everything to protect a town from a historic wildfire.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QOBEvQ_FhrI?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row"> <!-- 3rd row -->
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 style="text-align: right; color: orchid;"> 7th August</h3><hr>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x17NxgH9Iok?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 saw">
+                    <h4>Saw: Legacy</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;18:00</h4>
+                    <p>Bodies are turning up around the city, each having met a uniquely gruesome demise. As the investigation proceeds, evidence points to one suspect: John Kramer, the man known as Jigsaw, who has been dead for ten years.
+                    </p>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9COeRdRPcbg?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>             
+                  <div class="col-md-6 col-sm-12 col-xs-12 geostorm">
+                    <h4>Geostorm</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;20:00</h4>
+                    <p>When the network of satellites designed to control the global climate start to attack Earth, it's a race against the clock to uncover the real threat before a worldwide geostorm wipes out everything and everyone.
+                    </p>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mvfvoCdPrII?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 ittefaq">
+                    <h4>Ittefaq</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;22:00</h4>
+                    <p> Dev (Akshaye Khanna), a police officer, is investigating a double murder case that has only two witnesses, who are also the prime suspects. The suspects - Vikram (Siddharth Malhotra), an acclaimed writer, and Maya (Sonakshi Sinha), a young homemaker, have different narratives about the events of that fateful night. Both the stories seem true but there can be only one truth. Dev is torn between the two versions of the story, and will not settle till he finds out what happened that night.
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="row"> <!-- 4th row -->
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 style="text-align: right; color:orchid;"> 8th August</h3><hr>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 light-moon">
+                    <h4>The Light of the Moon</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;18:00</h4>
+                    <p>Bonnie, a young and successful Latina architect, is sexually assaulted while walking home from an evening out with friends in Brooklyn. At first, she attempts to keep the assault a secret from her long-term boyfriend Matt, but the truth quickly emerges. Bonnie emphatically denies the impact of what has just happened to her. She fights to regain normalcy and control of her life, but returning to her old life is more complicated than expected. Her attempt to recapture the intimacy she previously had with Matt falters and cracks begin to surface in their relationship. Another attack in the neighborhood only drives Bonnie further into denial, before an encounter with an at-risk woman causes her to face the truth and confront her own self-blame.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s7U5iwarXbE?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 thank-you">
+                    <h4>Thank You for Your Service</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;20:00</h4>
+                    <p>Thank You for Your Service' follows a group of U.S. soldiers returning from Iraq who struggle to integrate back into family and civilian life, while living with the memory of a war that threatens to destroy them long after they've left the battlefield.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/50LQGcb5knE?rel=0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div><hr />
+                
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 fireflies">
+                    <h4>Grave of the Fireflies</h4>
+                    <h4 class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;22:00</h4>
+                    <p>The story of Seita and Satsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle..
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8hxYx3Jq3kI" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div><hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Finished the movies schedule -->
+
+      <!-- News section -->
+      <div class="row container-fluid" id="news">
+          <div class="col-sm-7">
+            <h2 class="heading">News. <span class="text-muted">Announcements</span></h2>
+            <h4 class="text">Interview with Pedro Almodovar</h4>
+            <h5 class="text"><strong>How do you look back on your experience as a member of the Feature Film Jury in 1992 under the presidency of Gérard Depardieu?</strong></h5>
+            <h5 class="text">I remember the people. The friendship of Serge Toubiana and our conversations about Truffaut. And our discussions with the great cinematographer Carlo di Palma about Antonioni, a director of crucial importance in my opinion. My friend Jamie Lee Curtis was a laugh. And above all, I remember Gérard Depardieu – a free spirit, highly entertaining, and a completely anti-authoritarian president.</h5>
+            </h5>
+          </div>
+          <div class="col-sm-5">
+            <img class="news-image img-fluid mx-auto img-responsive" alt="" style="height: 500px; max-width:100%;" src="img/pedro-almodovar.jpg">
+          </div>
+      </div>
+  
+        <hr class="divider">
+
+      <!-- REGISTER AND CONTACT FORM -->
+      <section class="register container-fluid">
+          <div id="register">
+            <h2>Register</h2>
+          </div>
+          <div class="row">
+              <!-- Contact -->
+              <div class="col-md-6 contact">
+                <br>
+                <h5><i class="fa fa-globe" aria-hidden="true"></i> New York, US</h5>
+                <h5><i class="fa fa-mobile" aria-hidden="true"></i> +00 1515151515</h5>
+                <h5><i class="fa fa-envelope-o" aria-hidden="true"></i> support@email.com</h5> 
+                <h5><i class="fa fa-calendar" aria-hidden="true"></i> August, 5th - 8th</h5>
+                <h5><i class="fa fa-clock-o" aria-hidden="true"></i> 6pm - midnight</h5>
+                <h5><i class="fa fa-money" aria-hidden="true"></i> Price: Free</h5>
+                <h5><i class="fa fa-users" aria-hidden="true"></i> Capacity: 5000 people</h5>
+              </div>
+
+              <!-- Register form -->
+
+              <div class="col-md-6 col-sm-12">
+                <form action="" class="form-horizontal">
+                  <!-- Name form group -->
+                  <div class="form-group">
+                    <label for="user-name" class="col-md-12 col-sm-12 control-label"><i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp;Name</label>
+                    <div class="col-md-12 col-sm-12">
+                      <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                    </div>
+                  </div>
+                  <!-- Email form group -->
+                  <div class="form-group">
+                    <label for="user-email" class="col-md-12 col-sm-12 control-label"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Email</label>
+                    <div class="col-md-12 col-sm-12">
+                      <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                    </div>
+                  </div>
+                  <!-- Movie form group -->
+                  <div class="form-group">
+                      <label for="user-movie" class="col-md-12 col-sm-12 control-label"><i class="fa fa-film" aria-hidden="true"></i>&nbsp;Which Movie?</label>
+                      <div class="col-md-12 col-sm-12">
+                        <select id="user-movie" class="form-control">
+                          <option>Star Wars: The Last Jedi</option>
+                          <option>Thor: Ragnarok</option>
+                          <option>The Imitation Game</option>
+                          <option>Requiem for a dream</option>
+                          <option>Last Flag Flying</option>
+                          <option>Only the Brave</option>
+                          <option>Saw: Legacy</option>
+                          <option>Geostorm</option>
+                          <option>Ittefaq</option>
+                          <option>The Light of the Moon</option>
+                          <option>Thank you for your Service</option>
+                          <option>Grave of the Fireflies</option>
+                        </select>
+                      </div>
+                  </div>
+                  <!-- Date form group -->
+                  <div class="form-group">
+                    <label for="user-date" class="col-md-12 col-sm-12 control-label"><i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp;Which Date?</label>
+                    <div class="col-md-12 col-sm-12">
+                      <select id="user-date" class="form-control">
+                      <option>5th</option>
+                      <option>6th</option>
+                      <option>7th</option>
+                      <option>8th</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- How many people form group -->
+                  <div class="form-group">
+                      <label for="user-persons" class="col-md-12 col-sm-12 control-label"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;How many people are attending?</label>
+                      <div class="col-md-12 col-sm-12">
+                        <input type="number" class="form-control" id="user-persons" placeholder="Enter how many people are attending">
+                      </div>
+                  </div>
+                  <!-- Message form group -->
+                  <div class="form-group">
+                    <label for="user-message" class="col-md-12 col-sm-12 control-label"><i class="fa fa-comment-o" aria-hidden="true"></i>&nbsp;Any Message?</label>
+                    <div class="col-md-12 col-sm-12">
+                      <textarea name="user-message" id="user-message" class="form-control" 
+                      cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                    </div>
+                  </div>
+                  <!-- Newsletter form group -->
+                  <div class="form-group">
+                    <label for="user-date" class="col-md-12 col-sm-12 control-label"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Newsletter?</label>
+                    <div class="col-md-12 col-sm-12">
+                      <select id="user-newsletter" class="form-control">
+                      <option>Subscribe me to the newsletter</option>
+                      <option>Don't subscribe me to the newsletter</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- Submit form group -->
+                  <div class="form-group">
+                    <div class="col-md-12 col-sm-12">
+                      <center><button type="submit" class="btn btn-primary">Submit</button></center>
+                    </div>
+                  </div>
+                </form>
+              </div>
+          </div>
+      </section>
+
+      <hr> 
+
+      <!-- MAP -->
+      <section class="container-fluid" id="map">
+        <div class="row">
+          <div class="col-md-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20070.84184041745!2d-73.996699!3d40.700291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa109779d5185c305!2sBrooklyn+Bridge+Park!5e1!3m2!1sit!2sie!4v1508946906811" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <!-- Map info -->
+          <div class="col-md-5">
+            <h2 class="map-title"> Our Venue:</h2> 
+            <div class="map-info">
+              <h4>Brooklyn Bridge Park</h4>
+              <h5>334 Furman St, Brooklyn</h5>
+              <h5>New York, 11201</h5>
+              <h5>U S A</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF MAP -->
+
+      <hr>
+      <!-- FOOTER -->
+      <div class="footer row container-fluid">     
+          <!-- Explore footer --> 
+          <div class="col-lg-4 col-md-4"><!-- widgets column left -->
+            <ul class="list-unstyled clear-margins"><!-- widgets -->                
+              <li class="widget-container widget_nav_menu"><!-- widgets list -->          
+                <h1 class="title-widget">Explore</h1> 
+                <ul>
+                  <li><a href="#home"><i class="fa fa-angle-double-right"></i> Home</a></li>
+                  <li><a href="#info"><i class="fa fa-angle-double-right"></i> Info</a></li>
+                  <li><a href="#movies"><i class="fa fa-angle-double-right"></i> Movies</a></li>
+                  <li><a href="#news"><i class="fa fa-angle-double-right"></i> News</a></li>
+                  <li><a href="#register"><i class="fa fa-angle-double-right"></i> Register</a></li>
+                  <li><a  href="#map"><i class="fa fa-angle-double-right"></i> Map</a></li>
+                </ul>        
+              </li>     
+            </ul>     
+          </div><!-- widgets column left end -->
+          <!-- Useful links footer -->                  
+          <div class="col-lg-4 col-md-4"><!-- widgets column left -->     
+           <ul class="list-unstyled clear-margins"><!-- widgets -->
+            <li class="widget-container widget_nav_menu"><!-- widgets list -->          
+            <h1 class="title-widget">Useful links</h1>
+            <ul>
+              <li><a href="https://www.bkreader.com/" target="_blank"><i class="fa fa-angle-double-right"></i> Brooklyn Reader</a></li>
+              <li><a  href="https://www.brooklynbridgepark.org/" target="_blank"><i class="fa fa-angle-double-right"></i> Brooklyn Bridge Park</a></li>  
+            </ul>            
+            </li>                     
+          </ul>                  
+        </div><!-- widgets column left end -->
+        <!-- Contact Details footer -->            
+        <div class="col-lg-4 col-md-4"><!-- widgets column center -->    
+          <ul class="list-unstyled clear-margins"><!-- widgets -->                 
+            <li class="widget-container widget_recent_news"><!-- widgets list -->            
+              <h1 class="title-widget">Contact Details </h1>                      
+              <div class="footerp">                     
+                <p><b style="color:white;">Email:</b><a href="mailto:support@email.com"> support@email.com</a></p>
+                <p><b style="color:white;">Telephone Number:</b><a href="tel:+001515151515"> +00 1515151515</a></p>
+              </div>                    
+              <div class="social-icons">                      
+                <ul class="nomargin">                      
+                  <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-3x" aria-hidden="true" id="social"></i></a>
+                  <a href="https://www.twitter.com/"><i class="fa fa-twitter fa-3x" aria-hidden="true" id="social"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-3x" aria-hidden="true" id="social"></i></a>
+                  <a href="" id="notification-2"><i class="fa fa-bell-o fa-3x" aria-hidden="true" id="social"></i></a>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <!-- The last footer description -->
+    <div class="footer-bottom container-fluid row"> 
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="copyright">
+              <h6>© 2017 Brooklyn Vibes Events Co. All rights reserved</h6>
+            </div>
+          </div>
+    </div>
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- Script for responsive videos -->
+    <script src="js/jquery.fitvids.js"></script>
+
+    <!-- Script for fixes -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
