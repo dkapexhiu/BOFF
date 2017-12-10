@@ -3,25 +3,25 @@ var cacheName = 'v1';
 
 // Default files to always cache
 var cacheFiles = [  
-    '/',
-    '/index.html',
-    '/js/jquery.fitvids.js',
-    '/js/script.js',
-    '/css/style.css',
+    '/BOFF/',
+    '/BOFF/index.html',
+    '/BOFF/js/jquery.fitvids.js',
+    '/BOFF/js/script.js',
+    '/BOFF/css/style.css',
     'https://fonts.googleapis.com/css?family=Lora',
     'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css',
     'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
     'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js',
-    '/img/bg.jpg',
-    '/img/brooklyn-bridge-film-festival.jpg',
-    '/img/brooklyn-bridge-film-festival2.jpg',
-    '/img/brooklyn-bridge-film-festival3.jpg',
-    '/img/brooklyn-bridge-film-festival4.jpg',
-    '/img/brooklyn-bridge-film-festival6.jpg',
-    '/img/icon.png',
-    '/img/pedro-almodovar.jpg',
-    '/img/checkmark.png',
-    '/img/xmark.png'
+    '/BOFF/img/bg.jpg',
+    '/BOFF/img/brooklyn-bridge-film-festival.jpg',
+    '/BOFF/img/brooklyn-bridge-film-festival2.jpg',
+    '/BOFF/img/brooklyn-bridge-film-festival3.jpg',
+    '/BOFF/img/brooklyn-bridge-film-festival4.jpg',
+    '/BOFF/img/brooklyn-bridge-film-festival6.jpg',
+    '/BOFF/img/icon.png',
+    '/BOFF/img/pedro-almodovar.jpg',
+    '/BOFF/img/checkmark.png',
+    '/BOFF/img/xmark.png'
 ]
 
 
