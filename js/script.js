@@ -86,7 +86,7 @@ function displayNotification(){
 
     var options = {
       body: 'This is Brooklyn Outdoor Film Festival',
-      icon: 'img/icon.png',
+      icon: '/BOFF/img/icon.png',
       vibrate: [100, 50, 100],
       data: {
         dateOfArrival: Date.now(),
@@ -95,9 +95,9 @@ function displayNotification(){
     
       actions: [
         {action: 'explore', title: 'Explore the site',
-          icon: 'img/checkmark.png'},
+          icon: '/BOFF/img/checkmark.png'},
         {action: 'close', title: 'Close the notification',
-          icon: 'img/xmark.png'},
+          icon: '/BOFF/img/xmark.png'},
       ]
     };
     reg.showNotification('Welcome!', options);
@@ -111,7 +111,7 @@ function notification2(){
   
       var options = {
         body: 'Please register for free tickets!',
-        icon: 'img/icon.png',
+        icon: '/BOFF/img/icon.png',
         vibrate: [100, 50, 100],
         data: {
           dateOfArrival: Date.now(),
@@ -120,9 +120,9 @@ function notification2(){
       
         actions: [
           {action: 'explore', title: 'Register & Contact Us',
-            icon: 'img/checkmark.png'},
+            icon: '/BOFF/img/checkmark.png'},
           {action: 'close', title: 'Close the notification',
-            icon: 'img/xmark.png'},
+            icon: '/BOFF/img/xmark.png'},
         ]
       };
       reg.showNotification('Register!', options);
