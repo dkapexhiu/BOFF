@@ -124,7 +124,7 @@ self.addEventListener('notificationclick', function(e) {
     if (action === 'close') {
       notification.close();
     } else {
-      clients.openWindow('http://dkapexhiu.github.io/brooklyn-outdoor-film-festival/');
+      clients.openWindow('http://dkapexhiu.github.io/boff/');
       notification.close();
     }
 
